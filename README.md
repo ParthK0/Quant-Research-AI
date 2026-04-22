@@ -43,16 +43,3 @@ graph TD
 *   **Alpha Vantage**: Fundamentals data (EPS, revenue, balance sheet).
 *   **Reddit (PRAW)**: Retail sentiment from `r/investing`, `r/wallstreetbets`.
 
-## 🚀 Development Roadmap
-
-*   **Phase 1 (Week 1–2): Data ingestion + RAG pipeline**
-    *   Fetch EDGAR filings, chunk text, embed locally, and store in `pgvector`.
-*   **Phase 2 (Week 3–4): Multi-agent orchestration**
-    *   Set up LangGraph supervisor and the Fundamental, Sentiment, Technical, Risk, and Synthesis agents.
-*   **Phase 3 (Week 5–6): FastAPI backend + Next.js dashboard**
-    *   Build endpoints, streaming SSE, and Next.js frontend with live agent status.
-*   **Phase 4 (Week 7–8): Backtesting engine + polish**
-    *   Java 21 historical backtester, NSE/BSE integration, and final deployments.
-
----
-*Built as a showcase project.*
